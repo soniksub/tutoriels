@@ -1,5 +1,5 @@
 # Commencez par le tutoriel JAVA
-[le tuto JAVA](https://github.com/soniksub/tutos/blob/main/java/README.md)
+[le tuto JAVA](https://github.com/soniksub/tutoriels/tree/main/java#readme)
 
 # DEPLOIEMENT des wars avec DOCKER
 
