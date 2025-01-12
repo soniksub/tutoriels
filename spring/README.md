@@ -5,5 +5,5 @@
 
 ## Initialisation du projet avec l'aide de [spring initializr](https://start.spring.io/)
 
-![](https://github.com/soniksub/tutoriels/tree/main/spring/spring initializr.png)
+![](https://github.com/soniksub/tutoriels/blob/main/spring/spring%20initializr.png)
 
