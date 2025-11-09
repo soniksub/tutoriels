@@ -1,6 +1,8 @@
 # Spring Boot CRUD Application
 
-Ce projet montre comment creer une application CRUD (Create, Read, Update, Delete) utilisant Spring Boot, Postgres et Spring Data JPA.
+Ce projet montre comment creer une application CRUD (Create, Read, Update, Delete) utilisant Spring Boot, Postgres et Spring Data JPA. 
+
+Proposé par CodingWithArmand avec Mysql, adapté avec PostgreSQL : https://www.youtube.com/watch?v=Ey554n5odLk
 
 ## Table of Contents
 
