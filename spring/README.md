@@ -7,30 +7,30 @@
 # sous git-bash ça donne ça
 mkdir /c/java
 cd /c/java
-curl https://builds.openlogic.com/downloadJDK/openlogic-openjdk/17.0.13+11/openlogic-openjdk-17.0.13+11-windows-x64.zip  --output openlogic-openjdk-17.0.13+11-windows-x64.zip
-unzip openlogic-openjdk-17.0.13+11-windows-x64.zip
-rm -f openlogic-openjdk-17.0.13+11-windows-x64.zip
+curl https://builds.openlogic.com/downloadJDK/openlogic-openjdk/17.0.16+8/openlogic-openjdk-17.0.16+8-windows-x64.zip  --output openjdk.zip
+unzip openjdk.zip
+rm -f openjdk.zip
 
 # ajoute les lignes suivante dans ~/.bash_profile
-export JAVA_HOME=/c/java/openlogic-openjdk-17.0.13+11-windows-x64
+export JAVA_HOME=/c/java/openlogic-openjdk-17.0.16+8-windows-x64
 export PATH=${JAVA_HOME}/bin:$PATH
 ```
 
-# installer maven 3.6.3
+# installer maven 3.9.11
 
 ```
 mkdir /c/maven
 cd /c/maven
-curl https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.6.3/apache-maven-3.6.3-bin.tar.gz --output apache-maven-3.6.3-bin.tar.gz
-unzip apache-maven-3.6.3-bin.tar.gz
-rm -f apache-maven-3.6.3-bin.tar.gz
+curl https://repo.maven.apache.org/maven2/org/apache/maven/apache-maven/3.9.11/apache-maven-3.9.11-bin.tar.gz --output maven.tar.gz
+gzip -d maven.tar.gz
+rm -f maven.tar.gz
 
 # ajoute les lignes suivante dans ~/.bash_profile
-export MAVEN_HOME=/c/maven/apache-maven-3.6.3
+export MAVEN_HOME=/c/maven/apache-maven-3.9.11
 export PATH=${MAVEN_HOME}/bin:$PATH
 ```
 
-# Tuto spring boot basé sur ce [tuto](https://www.youtube.com/watch?v=k6Nmt-l1Bzc)
+# Tuto web/sa-backend basé sur ce [tuto](https://www.youtube.com/watch?v=k6Nmt-l1Bzc)
 
 ## Initialisation du projet avec l'aide de [spring initializr](https://start.spring.io/)
 
