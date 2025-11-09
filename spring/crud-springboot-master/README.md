@@ -33,7 +33,7 @@ Before you begin, ensure you have the following installed on your machine:
 
 2. **Configurer la connexion à la BDD:**
 
-   Fichier `src/main/resources/application.properties` :
+   Verifiez le fichier `src/main/resources/application.properties` :
 
     ```properties
    spring.datasource.url=jdbc:postgresql://localhost:5432/postgres
@@ -42,10 +42,13 @@ Before you begin, ensure you have the following installed on your machine:
    spring.datasource.driver-class-name=org.postgresql.Driver
    spring.jpa.hibernate.ddl-auto=none
    spring.jpa.show-sql=true
-   spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+   spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.PostgreSQLDialect
     ```
+3. **Lancer le service POSTGRES ( services sous windows ):**
 
-3. **Build:**
+   Utilisez DBEAVER pour jouer le script create_tale.sql dans la base "postgres"
+   
+4. **Build:**
 
     ```sh
     mvn clean install
