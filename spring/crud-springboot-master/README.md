@@ -4,14 +4,14 @@ Ce projet montre comment creer une application CRUD (Create, Read, Update, Delet
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
+- [Pre-requis](#pre-requis)
 - [Setup](#setup)
 - [Running the Application](#running-the-application)
 - [API Endpoints](#api-endpoints)
 - [Postman Collection](#postman-collection)
 - [Technologies Used](#technologies-used)
 
-## Prerequisites
+## Pre-requis
 
 Before you begin, ensure you have the following installed on your machine:
 
@@ -61,17 +61,17 @@ Before you begin, ensure you have the following installed on your machine:
 
 ## API Endpoints
 
-The following endpoints are available for the CRUD operations on the `Person` entity:
+Les endpoints disponibles pour les operation sur l'entité `Person` :
 
 - **GET /api/persons**
-    - Retrieve a list of all persons.
+    - Liste de toutes les personnes.
 
 - **GET /api/persons/{id}**
-    - Retrieve a single person by ID.
+    - Trouver une personne avec son ID.
 
 - **POST /api/persons**
-    - Create a new person.
-    - Example request body:
+    - Creer une nouvelle personne.
+    - Exemple "request body":
       ```json
       {
           "name": "John Doe",
@@ -81,8 +81,8 @@ The following endpoints are available for the CRUD operations on the `Person` en
       ```
 
 - **PUT /api/persons/{id}**
-    - Update an existing person by ID.
-    - Example request body:
+    - Mettre a jour une personne existante avec son ID.
+    - Exemple "request body":
       ```json
       {
           "city": "New York",
@@ -91,24 +91,15 @@ The following endpoints are available for the CRUD operations on the `Person` en
       ```
 
 - **DELETE /api/persons/{id}**
-    - Delete a person by ID.
+    - Supprimer une personne avec son ID.
 
-## Postman Collection
+## Postman
 
-A Postman collection to test each endpoint is included at the root of the project folder. You can import this collection into Postman to quickly test the API.
+Une collection Postman présente à la racine du projet permet de tester chaque endpoint. Il est possible d'importer cette collection dans Postman pour rapidement tester l'API.
 
 ## Technologies Used
 
 - **Spring Boot:** A framework to simplify the bootstrapping and development of new Spring applications.
 - **Spring Data JPA:** A part of the larger Spring Data family to easily implement JPA-based repositories.
-- **MySQL:** A relational database management system.
+- **PostgreSQL:** A relational database management system.
 - **Maven:** A build automation tool used primarily for Java projects.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or suggestions.
-
-
----
-
-Happy coding!
